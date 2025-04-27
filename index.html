@@ -1,45 +1,64 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wheaton Shower Glass Company - Premium Glass Solutions</title>
     <meta name="description" content="Expert shower glass repairs and installations with premium safety features. Contact us today for quick service.">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-900 text-gray-100 font-sans antialiased">
     <header class="fixed w-full bg-gray-900/95 backdrop-blur-sm z-50 border-b border-gray-800">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <a href="/" class="text-xl font-bold tracking-tight hover:text-blue-400 transition-colors duration-300">
+                <a href="https://mr222more.github.io/wheaton-shower-glass-company-2025-04-27-8wgy8" class="text-xl font-bold tracking-tight hover:text-blue-400 transition-colors duration-300">
                     Wheaton Shower Glass
                 </a>
                 <div class="hidden md:flex space-x-8">
                     <a href="#features" class="hover:text-blue-400 transition-colors duration-300">Features</a>
                     <a href="#benefits" class="hover:text-blue-400 transition-colors duration-300">Benefits</a>
+                    <a href="#testimonials" class="hover:text-blue-400 transition-colors duration-300">Testimonials</a>
+                    <a href="#about" class="hover:text-blue-400 transition-colors duration-300">About</a>
+                    <a href="#faq" class="hover:text-blue-400 transition-colors duration-300">FAQ</a>
                     <a href="#contact" class="hover:text-blue-400 transition-colors duration-300">Contact</a>
                 </div>
-                <button class="md:hidden">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                    </svg>
+                <button class="mobile-menu-button md:hidden" aria-label="Toggle mobile menu">
+                    <i class="fas fa-bars text-2xl"></i>
                 </button>
+            </div>
+            <div class="mobile-menu hidden md:hidden mt-4 bg-gray-800 rounded-lg p-4">
+                <a href="#features" class="block py-2 px-4 hover:bg-gray-700 rounded transition-colors duration-300">Features</a>
+                <a href="#benefits" class="block py-2 px-4 hover:bg-gray-700 rounded transition-colors duration-300">Benefits</a>
+                <a href="#testimonials" class="block py-2 px-4 hover:bg-gray-700 rounded transition-colors duration-300">Testimonials</a>
+                <a href="#about" class="block py-2 px-4 hover:bg-gray-700 rounded transition-colors duration-300">About</a>
+                <a href="#faq" class="block py-2 px-4 hover:bg-gray-700 rounded transition-colors duration-300">FAQ</a>
+                <a href="#contact" class="block py-2 px-4 hover:bg-gray-700 rounded transition-colors duration-300">Contact</a>
             </div>
         </nav>
     </header>
 
     <main>
         <section class="relative min-h-screen flex items-center justify-center py-24 px-6">
-            <div class="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"></div>
+            <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center opacity-20"></div>
+            <div class="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800/90 to-gray-900"></div>
             <div class="relative container mx-auto text-center">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-                    Quick shower glass repairs today
+                    Transform Your Bathroom with Premium Shower Glass Solutions
                 </h1>
                 <p class="text-xl md:text-2xl text-gray-400 mb-12 max-w-3xl mx-auto">
-                    Professional shower glass solutions with premium safety features and expert installation
+                    Experience luxury and safety with our expertly crafted shower glass installations. Same-day repairs and lifetime warranties available.
                 </p>
-                <a href="http://www.customeuroglass.com" class="inline-flex items-center px-8 py-4 text-lg font-semibold text-gray-900 bg-white rounded-full hover:bg-blue-400 hover:scale-105 transform transition-all duration-300 shadow-lg">
-                    Get Started
+                <a href="http://www.customeuroglass.com" class="inline-flex items-center px-8 py-4 text-lg font-semibold text-gray-900 bg-white rounded-full hover:bg-blue-400 hover:text-white hover:scale-105 transform transition-all duration-300 shadow-lg">
+                    Schedule Free Consultation
                     <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                     </svg>
@@ -50,15 +69,33 @@
         <section id="features" class="py-24 px-6 bg-gray-800">
             <div class="container mx-auto">
                 <h2 class="text-3xl md:text-4xl font-bold mb-16 text-center">Premium Features</h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
                     <div class="bg-gray-900 rounded-2xl p-8 hover:scale-105 transform transition-all duration-300 shadow-xl">
                         <div class="flex items-start mb-6">
                             <svg class="w-12 h-12 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Textured Glass Surfaces</h3>
-                        <p class="text-gray-400">Enhanced slip resistance for improved safety and peace of mind</p>
+                        <h3 class="text-xl font-semibold mb-4">Premium Safety Glass</h3>
+                        <p class="text-gray-400">Tempered glass that's 4x stronger than standard glass, with advanced shatter-resistance technology.</p>
+                    </div>
+                    <div class="bg-gray-900 rounded-2xl p-8 hover:scale-105 transform transition-all duration-300 shadow-xl">
+                        <div class="flex items-start mb-6">
+                            <svg class="w-12 h-12 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Quick Installation</h3>
+                        <p class="text-gray-400">Professional installation in as little as 24 hours, with minimal disruption to your daily routine.</p>
+                    </div>
+                    <div class="bg-gray-900 rounded-2xl p-8 hover:scale-105 transform transition-all duration-300 shadow-xl">
+                        <div class="flex items-start mb-6">
+                            <svg class="w-12 h-12 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Lifetime Warranty</h3>
+                        <p class="text-gray-400">Comprehensive coverage against defects and installation issues for complete peace of mind.</p>
                     </div>
                 </div>
             </div>
@@ -67,14 +104,92 @@
         <section id="benefits" class="py-24 px-6">
             <div class="container mx-auto">
                 <h2 class="text-3xl md:text-4xl font-bold mb-16 text-center">Key Benefits</h2>
-                <div class="bg-gray-800 rounded-2xl p-12 hover:shadow-2xl transition-shadow duration-300">
-                    <div class="flex flex-col md:flex-row items-center gap-12">
-                        <div class="flex-1">
-                            <h3 class="text-2xl font-semibold mb-6">Enhanced Safety Features</h3>
-                            <p class="text-gray-400 text-lg leading-relaxed">
-                                Strengthened safety glass reduces injury risks, providing ultimate protection for you and your family
-                            </p>
-                        </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                    <div class="bg-gray-800 rounded-2xl p-12 hover:shadow-2xl transition-all duration-300 hover:scale-102">
+                        <h3 class="text-2xl font-semibold mb-6">Enhanced Safety Features</h3>
+                        <p class="text-gray-400 text-lg leading-relaxed">
+                            Our premium safety glass features advanced tempering technology that reduces injury risks by up to 90%. Each installation includes anti-slip treatments and reinforced mounting systems.
+                        </p>
+                    </div>
+                    <div class="bg-gray-800 rounded-2xl p-12 hover:shadow-2xl transition-all duration-300 hover:scale-102">
+                        <h3 class="text-2xl font-semibold mb-6">Elegant Design Options</h3>
+                        <p class="text-gray-400 text-lg leading-relaxed">
+                            Choose from over 50 premium glass styles and finishes. Our design experts help create a custom look that perfectly matches your bathroom's aesthetic.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="py-24 px-6 bg-gray-800">
+            <div class="container mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold mb-16 text-center">Customer Testimonials</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-900 p-8 rounded-2xl hover:shadow-xl transition-all duration-300">
+                        <div class="flex text-yellow-400 mb-4">★★★★★</div>
+                        <p class="text-gray-400 mb-4">"The installation team was incredibly professional and efficient. They completed our custom shower enclosure in just one day, and the quality is outstanding."</p>
+                        <p class="font-semibold">Sarah Johnson</p>
+                        <p class="text-sm text-gray-500">Homeowner in Wheaton</p>
+                    </div>
+                    <div class="bg-gray-900 p-8 rounded-2xl hover:shadow-xl transition-all duration-300">
+                        <div class="flex text-yellow-400 mb-4">★★★★★</div>
+                        <p class="text-gray-400 mb-4">"After a glass panel cracked, they responded within hours and had it replaced the next day. Their warranty service is truly exceptional."</p>
+                        <p class="font-semibold">Michael Chen</p>
+                        <p class="text-sm text-gray-500">Property Manager</p>
+                    </div>
+                    <div class="bg-gray-900 p-8 rounded-2xl hover:shadow-xl transition-all duration-300">
+                        <div class="flex text-yellow-400 mb-4">★★★★★</div>
+                        <p class="text-gray-400 mb-4">"The anti-slip treatment they applied has made such a difference in safety. Plus, the glass is incredibly easy to clean and maintain."</p>
+                        <p class="font-semibold">Emily Rodriguez</p>
+                        <p class="text-sm text-gray-500">Interior Designer</p>
+                    </div>
+                    <div class="bg-gray-900 p-8 rounded-2xl hover:shadow-xl transition-all duration-300">
+                        <div class="flex text-yellow-400 mb-4">★★★★★</div>
+                        <p class="text-gray-400 mb-4">"The design consultation helped us choose the perfect style for our bathroom renovation. The final result exceeded our expectations."</p>
+                        <p class="font-semibold">David Thompson</p>
+                        <p class="text-sm text-gray-500">Recent Customer</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-24 px-6">
+            <div class="container mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold mb-16 text-center">About Us</h2>
+                <div class="max-w-3xl mx-auto space-y-8">
+                    <p class="text-gray-400 text-lg leading-relaxed">
+                        Founded in 1995, Wheaton Shower Glass Company began with a vision to revolutionize bathroom safety and aesthetics. What started as a small family business has grown into Wheaton's premier provider of custom shower glass solutions, serving thousands of satisfied customers throughout the region.
+                    </p>
+                    <p class="text-gray-400 text-lg leading-relaxed">
+                        Our mission is to deliver exceptional quality and service while maintaining the highest standards of safety and craftsmanship. We believe in transparency, integrity, and putting our customers first in everything we do. Our core values of excellence, innovation, and reliability guide every installation and repair we perform.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="py-24 px-6 bg-gray-800">
+            <div class="container mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold mb-16 text-center">Frequently Asked Questions</h2>
+                <div class="max-w-3xl mx-auto space-y-8">
+                    <div class="bg-gray-900 rounded-xl p-6 hover:shadow-xl transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">How long does installation typically take?</h3>
+                        <p class="text-gray-400">Most standard installations are completed within 4-6 hours. Custom projects may take 1-2 days depending on complexity.</p>
+                    </div>
+                    <div class="bg-gray-900 rounded-xl p-6 hover:shadow-xl transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">What type of warranty do you offer?</h3>
+                        <p class="text-gray-400">We provide a comprehensive lifetime warranty on all glass and installation work, covering both materials and labor.</p>
+                    </div>
+                    <div class="bg-gray-900 rounded-xl p-6 hover:shadow-xl transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">How do I maintain my shower glass?</h3>
+                        <p class="text-gray-400">We recommend daily squeegee use and weekly cleaning with our specialized glass cleaner. We provide detailed care instructions with every installation.</p>
+                    </div>
+                    <div class="bg-gray-900 rounded-xl p-6 hover:shadow-xl transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">Do you offer emergency repair services?</h3>
+                        <p class="text-gray-400">Yes, we provide 24/7 emergency repair services for existing customers, with most repairs completed within 24 hours.</p>
+                    </div>
+                    <div class="bg-gray-900 rounded-xl p-6 hover:shadow-xl transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">What are your payment options?</h3>
+                        <p class="text-gray-400">We accept all major credit cards, cash, and offer flexible financing options with approved credit. Deposits are required for custom installations.</p>
                     </div>
                 </div>
             </div>
@@ -82,14 +197,17 @@
 
         <section id="contact" class="py-24 px-6 bg-gradient-to-b from-gray-800 to-gray-900">
             <div class="container mx-auto text-center">
-                <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to get started?</h2>
-                <p class="text-xl text-gray-400 mb-12">Contact us today for premium shower glass solutions</p>
+                <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Transform Your Bathroom?</h2>
+                <p class="text-xl text-gray-400 mb-12">Contact us today for a free consultation and estimate</p>
                 <div class="flex flex-col items-center justify-center gap-6">
-                    <a href="mailto:lt@customeuroglass.com" class="text-lg text-blue-400 hover:text-blue-300 transition-colors duration-300">
+                    <a href="mailto:lt@customeuroglass.com" class="text-lg text-blue-400 hover:text-blue-300 transition-colors duration-300 hover:scale-105 transform">
                         lt@customeuroglass.com
                     </a>
-                    <a href="http://www.customeuroglass.com" class="inline-flex items-center px-8 py-4 text-lg font-semibold text-gray-900 bg-white rounded-full hover:bg-blue-400 hover:scale-105 transform transition-all duration-300 shadow-lg">
-                        Visit Website
+                    <a href="http://www.customeuroglass.com" class="inline-flex items-center px-8 py-4 text-lg font-semibold text-gray-900 bg-white rounded-full hover:bg-blue-400 hover:text-white hover:scale-105 transform transition-all duration-300 shadow-lg">
+                        Get Your Free Quote
+                        <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
                     </a>
                 </div>
             </div>
@@ -98,7 +216,7 @@
 
     <footer class="bg-gray-900 border-t border-gray-800 py-12 px-6">
         <div class="container mx-auto">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
                 <div>
                     <h3 class="text-xl font-bold mb-4">Wheaton Shower Glass</h3>
                     <p class="text-gray-400">Premium shower glass solutions with expert installation</p>
@@ -110,10 +228,19 @@
                     </a>
                 </div>
                 <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <div class="space-y-2">
+                        <a href="#features" class="block text-gray-400 hover:text-blue-400 transition-colors duration-300">Features</a>
+                        <a href="#benefits" class="block text-gray-400 hover:text-blue-400 transition-colors duration-300">Benefits</a>
+                        <a href="#testimonials" class="block text-gray-400 hover:text-blue-400 transition-colors duration-300">Testimonials</a>
+                        <a href="https://mr222more.github.io/wheaton-shower-glass-company-2025-04-27-8wgy8/blog.html" class="block text-gray-400 hover:text-blue-400 transition-colors duration-300">Blog</a>
+                    </div>
+                </div>
+                <div>
                     <h3 class="text-xl font-bold mb-4">Legal</h3>
                     <div class="space-y-2">
-                        <a href="#" class="block text-gray-400 hover:text-blue-400 transition-colors duration-300">Privacy Policy</a>
-                        <a href="#" class="block text-gray-400 hover:text-blue-400 transition-colors duration-300">Terms of Service</a>
+                        <a href="https://mr222more.github.io/wheaton-shower-glass-company-2025-04-27-8wgy8/privacy.html" class="block text-gray-400 hover:text-blue-400 transition-colors duration-300">Privacy Policy</a>
+                        <a href="https://mr222more.github.io/wheaton-shower-glass-company-2025-04-27-8wgy8/terms.html" class="block text-gray-400 hover:text-blue-400 transition-colors duration-300">Terms of Service</a>
                     </div>
                 </div>
             </div>
@@ -122,5 +249,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
